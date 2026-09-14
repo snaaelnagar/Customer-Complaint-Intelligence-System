@@ -1,0 +1,105 @@
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Git
+# =========================
+.git/
+.gitignore
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+notebooks/
+
+# =========================
+# Not needed at container runtime
+# =========================
+assets/
+tests/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Test Artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# MLflow / DVC
+# =========================
+mlruns/
+.dvc/
+.dvc/cache/
+
+# =========================
+# Raw + Huge Processed Data
+# =========================
+data/raw/
+data/processed/complaints_processed.parquet
+data/processed/narratives_training.parquet
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Local Cache / DB
+# =========================
+.cache/
+.streamlit/cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Reports
+# =========================
+reports/
+
+# =========================
+# Heavy Training Checkpoints
+# =========================
+*.ckpt
+*.h5
+*.pt
+*.pth

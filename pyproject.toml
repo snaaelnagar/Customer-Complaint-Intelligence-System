@@ -1,0 +1,50 @@
+[project]
+name = "customer-complaint-intelligence"
+version = "2.0.0"
+description = "Machine Learning / NLP Customer Complaint Intelligence System: canonical taxonomy, confidence-aware Product/Issue classification, unsupervised topic discovery, and a supporting business analytics layer (risk scoring, growth detection, forecasting, recommendations) built on CFPB consumer complaint data."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+authors = [
+    { name = "Snaa Alnaggar" },
+]
+
+dependencies = [
+    "pandas==2.2.3",
+    "numpy==2.4.6",
+    "pyarrow==21.0.0",
+
+    "streamlit==1.49.1",
+    "plotly==6.3.0",
+
+    "scikit-learn==1.9.0",
+    "joblib==1.5.3",
+    "scipy==1.17.1",
+
+    "prophet==1.1.7",
+
+    "pyyaml==6.0.2",
+    "python-dotenv==1.1.1",
+
+    "matplotlib==3.10.6",
+    "tqdm==4.67.1",
+    "openpyxl==3.1.5",
+    "wordcloud==1.9.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.4.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 88

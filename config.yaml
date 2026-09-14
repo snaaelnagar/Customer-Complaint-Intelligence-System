@@ -1,0 +1,115 @@
+paths:
+  raw_data_path: data/raw/complaints.csv
+  processed_data_path: data/processed/complaints_processed.parquet
+  processed_dir: data/processed
+
+  dashboard_dir: data/processed/dashboard
+  model_dir: models/nlp
+  logs_dir: logs
+
+  narratives_training_path: data/processed/narratives_training.parquet
+
+
+preprocessing:
+  chunksize: 200000
+
+
+dashboard:
+  top_products: 15
+  top_issues: 15
+  top_companies: 15
+  top_states: 15
+
+
+risk:
+  min_company_complaints: 100
+  high_risk_threshold: 70
+  medium_risk_threshold: 40
+
+
+growth:
+  min_current_complaints: 1000
+
+  rising_fast_threshold: 25
+  rising_threshold: 5
+
+  declining_threshold: -5
+  declining_fast_threshold: -25
+
+
+forecasting:
+  model: prophet
+
+  periods: 6
+  training_years: 4
+
+  yearly_seasonality: true
+  weekly_seasonality: false
+  daily_seasonality: false
+
+  seasonality_mode: additive
+
+  trend_threshold: 5
+
+
+driver_analysis:
+  top_products: 10
+  top_complaint_drivers: 25
+  top_drivers_per_product: 3
+
+
+recommendation_engine:
+  top_high_risk_companies: 5
+  top_product_growth: 5
+  top_issue_growth: 7
+  top_complaint_drivers: 5
+
+
+nlp:
+  random_state: 42
+
+  sample_size: 300000
+
+  # Confidence / Human-Review layer (src/nlp_predictor.py).
+  # A prediction is AUTO_ACCEPT when its top canonical-label confidence
+  # is >= confidence_threshold, otherwise it is routed to HUMAN_REVIEW.
+  confidence_threshold: 0.55
+  top_k_alternatives: 2
+  top_k_evaluation_values: [1, 3, 5]
+
+  narrative_batch_size: 50000
+
+  tuning_sample_size: 100000
+
+  product_classifier:
+    min_class_samples: 50
+    max_features: 20000
+    min_df: 3
+    ngram_min: 1
+    ngram_max: 2
+    max_iter: 2000
+
+  issue_classifier:
+    min_class_samples: 50
+    max_features: 20000
+    min_df: 3
+    ngram_min: 1
+    ngram_max: 2
+    max_iter: 2000
+
+  topic_model:
+    n_topics: 10
+    max_features: 10000
+    min_df: 10
+    ngram_min: 1
+    ngram_max: 2
+
+
+streamlit:
+  page_title: Machine Learning / NLP Customer Complaint Intelligence System
+  page_icon: "📊"
+  layout: wide
+
+
+logging:
+  level: INFO

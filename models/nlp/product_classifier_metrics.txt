@@ -1,0 +1,27 @@
+Best Accuracy: 0.7528393455746235
+Best Params: {'C': 2.0, 'class_weight': None, 'max_features': 20000}
+
+                                                                              precision    recall  f1-score   support
+
+                                                     Bank account or service       0.33      0.01      0.02        78
+                                                 Checking or savings account       0.71      0.84      0.77       951
+                                                               Consumer Loan       0.00      0.00      0.00        49
+                                                                 Credit card       0.53      0.46      0.49       646
+                                                 Credit card or prepaid card       0.48      0.44      0.46       592
+                                                            Credit reporting       0.50      0.03      0.05       172
+                         Credit reporting or other personal consumer reports       0.82      0.86      0.84      8752
+Credit reporting, credit repair services, or other personal consumer reports       0.66      0.67      0.67      4244
+                                                             Debt collection       0.74      0.73      0.74      2255
+                                                   Debt or credit management       0.00      0.00      0.00        27
+                          Money transfer, virtual currency, or money service       0.84      0.77      0.80       621
+                                                                    Mortgage       0.83      0.89      0.86       765
+                                                                 Payday loan       0.00      0.00      0.00        11
+                                   Payday loan, title loan, or personal loan       0.37      0.20      0.26        89
+                     Payday loan, title loan, personal loan, or advance loan       0.39      0.13      0.19        85
+                                                                Prepaid card       0.62      0.28      0.39        57
+                                                                Student loan       0.84      0.76      0.80       327
+                                                       Vehicle loan or lease       0.70      0.62      0.66       266
+
+                                                                    accuracy                           0.75     19987
+                                                                   macro avg       0.52      0.43      0.44     19987
+                                                                weighted avg       0.74      0.75      0.74     19987

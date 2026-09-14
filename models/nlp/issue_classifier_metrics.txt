@@ -1,0 +1,84 @@
+Best Accuracy: 0.6239684066629537
+Best Params: {'C': 2.0, 'class_weight': None, 'max_features': 20000}
+
+                                                                                  precision    recall  f1-score   support
+
+                                         Account opening, closing, or management       0.50      0.06      0.10        36
+                         Advertising and marketing, including promotional offers       0.67      0.28      0.40        57
+                                        Application, originator, mortgage broker       0.00      0.00      0.00        19
+                     Applying for a mortgage or refinancing an existing mortgage       0.47      0.40      0.43        80
+                                               Attempts to collect debt not owed       0.45      0.50      0.47       946
+                                                                Billing disputes       0.00      0.00      0.00        15
+                                                             Can't repay my loan       0.00      0.00      0.00        16
+                                      Charged fees or interest you didn't expect       0.50      0.30      0.37        47
+                                                              Closing an account       0.57      0.52      0.54       132
+                                                           Closing on a mortgage       0.42      0.22      0.29        51
+                                                            Closing your account       0.49      0.35      0.41        88
+                                                           Communication tactics       0.49      0.53      0.51       182
+                                                Confusing or missing disclosures       0.00      0.00      0.00        18
+                                           Cont'd attempts collect debt not owed       0.33      0.05      0.09       100
+                         Credit monitoring or identity theft protection services       0.67      0.08      0.14        78
+                                        Credit reporting company's investigation       0.00      0.00      0.00        33
+                                              Dealing with my lender or servicer       0.31      0.11      0.16        45
+                                            Dealing with your lender or servicer       0.59      0.70      0.64       179
+                                                        Deposits and withdrawals       0.00      0.00      0.00        16
+                                                 Disclosure verification of debt       1.00      0.06      0.11        35
+                                                       Electronic communications       0.67      0.09      0.16        22
+                                              False statements or representation       0.43      0.23      0.30       260
+                                                                Fees or interest       0.50      0.65      0.56       116
+                                                                   Fraud or scam       0.56      0.51      0.53       150
+                                                           Getting a credit card       0.52      0.43      0.47       110
+                                                         Getting a loan or lease       0.54      0.17      0.26        40
+                                                                Getting the loan       0.00      0.00      0.00        12
+                                             Improper contact or sharing of info       0.00      0.00      0.00        14
+                                                     Improper use of your report       0.74      0.73      0.74      3484
+                                          Incorrect information on credit report       0.50      0.02      0.03       114
+                                            Incorrect information on your report       0.64      0.84      0.73      6342
+                                        Loan modification,collection,foreclosure       0.33      0.17      0.22        54
+                                        Loan servicing, payments, escrow account       0.40      0.11      0.17        72
+                                                             Managing an account       0.45      0.77      0.57       514
+                                                      Managing the loan or lease       0.43      0.41      0.42       118
+                        Managing, opening, or closing your mobile wallet account       0.53      0.24      0.33        33
+                                           Money was not available when promised       0.50      0.06      0.10        35
+                                                              Opening an account       0.55      0.40      0.47        92
+                                                                           Other       0.00      0.00      0.00        11
+                                              Other features, terms, or problems       0.41      0.28      0.33       130
+                                                           Other service problem       0.00      0.00      0.00        19
+                                                       Other transaction problem       0.80      0.76      0.78       281
+                                          Problem caused by your funds being low       0.61      0.51      0.55        99
+                                    Problem getting a card or closing an account       0.50      0.12      0.20        16
+                                                    Problem when making payments       0.35      0.31      0.33       103
+                   Problem with a company's investigation into an existing issue       0.00      0.00      0.00        18
+                 Problem with a company's investigation into an existing problem       0.74      0.51      0.60      1808
+Problem with a credit reporting company's investigation into an existing problem       0.55      0.45      0.50      1295
+                    Problem with a lender or other company charging your account       0.14      0.05      0.07       109
+                                             Problem with a purchase or transfer       0.36      0.13      0.19        31
+                                 Problem with a purchase shown on your statement       0.62      0.70      0.65       296
+                                                   Problem with customer service       0.00      0.00      0.00        15
+                                   Problem with fraud alerts or security freezes       0.78      0.57      0.66        79
+                          Problem with the payoff process at the end of the loan       0.00      0.00      0.00        15
+                                        Problems at the end of the loan or lease       0.64      0.50      0.56        46
+                                           Problems caused by my funds being low       0.00      0.00      0.00        10
+                                             Problems when you are unable to pay       0.00      0.00      0.00        10
+                                                                    Repossession       0.48      0.32      0.38        31
+                                                    Settlement process and costs       0.00      0.00      0.00        14
+                                                      Struggling to pay mortgage       0.51      0.58      0.54       146
+                                                     Struggling to pay your bill       0.00      0.00      0.00        15
+                                                     Struggling to pay your loan       0.28      0.10      0.15        48
+                                                   Struggling to repay your loan       0.27      0.12      0.16        51
+                                            Taking/threatening an illegal action       0.00      0.00      0.00        16
+                   Threatened to contact someone or share information improperly       1.00      0.03      0.05        37
+                             Took or threatened to take negative or legal action       0.40      0.25      0.31       198
+                        Trouble accessing funds in your mobile or digital wallet       0.41      0.28      0.33        25
+                                                  Trouble during payment process       0.59      0.79      0.68       299
+                                                          Trouble using the card       0.64      0.46      0.54        39
+                                                         Trouble using your card       0.48      0.25      0.33        51
+                                        Unable to get credit report/credit score       0.00      0.00      0.00        11
+                                Unable to get your credit report or credit score       0.65      0.44      0.53       104
+                          Unauthorized transactions or other transaction problem       0.21      0.13      0.16        46
+                                                        Unexpected or other fees       0.00      0.00      0.00        28
+                                                 Written notification about debt       0.58      0.44      0.50       446
+
+                                                                        accuracy                           0.62     19751
+                                                                       macro avg       0.38      0.25      0.28     19751
+                                                                    weighted avg       0.61      0.62      0.60     19751
