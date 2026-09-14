@@ -1,8 +1,7 @@
 # Machine Learning / NLP Customer Complaint Intelligence System
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![CI](https://github.com/<your-github-username>/customer-complaint-intelligence/actions/workflows/ci.yml/badge.svg)
-![Docker Hub](https://img.shields.io/docker/pulls/<your-dockerhub-username>/customer-complaint-intelligence)
+![CI](https://github.com/snaaelnagar/Customer-Complaint-Intelligence-System/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Version:** v2.0.0 · **Status:** Production-Style Portfolio Project
