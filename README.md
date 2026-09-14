@@ -45,7 +45,6 @@ This is a portfolio project built with production-style engineering practices: m
 ## Links
 
 * **GitHub Repository:** https://github.com/snaaelnagar/Customer-Complaint-Intelligence-System
-* **Docker Hub:** https://hub.docker.com/r/snaaelnagar/customer-complaint-intelligence
 * **Project Summary:** [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
 * **Interview Q&A:** [docs/INTERVIEW_QA.md](docs/INTERVIEW_QA.md)
 * **Taxonomy Audit:** [docs/taxonomy_audit.md](docs/taxonomy_audit.md)
